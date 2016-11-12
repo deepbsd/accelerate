@@ -6,6 +6,8 @@
  * @since Accelerate Theme 1.1
  */
 
+$size = "full";
+
 get_header(); ?>
 	<div id="primary" class="site-content">
 		<div id="content" role="main">
@@ -31,13 +33,16 @@ get_header(); ?>
 
     <div class="case-study-images">
 			<?php if($image_1) { ?>
-				<img src="<?php echo $image_1; ?>" />
+				<!-- <img src="<?php echo $image_1; ?>" /> -->
+				<?php echo wp_get_attachment_image( $image_1, $size ); ?>
       <?php } ?>
 			<?php if($image_2) { ?>
-				<img src="<?php echo $image_2; ?>" />
+				<!-- <img src="<?php echo $image_2; ?>" /> -->
+				<?php echo wp_get_attachment_image( $image_2, $size ); ?>
 			<?php } ?>
 			<?php if($image_3) { ?>
-				<img src="<?php echo $image_3; ?>" />
+				<!-- <img src="<?php echo $image_3; ?>" /> -->
+				<?php echo wp_get_attachment_image( $image_3, $size ); ?>
 			<?php } ?>
 		</div>
 
