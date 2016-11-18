@@ -70,3 +70,36 @@ div.case-study-images img {
   margin-bottom: 50px;
   border: 1px solid #dddddd;
 }
+
+/* Featured Work */
+h4.featured-work-heading {
+  text-align: center;
+  text-transform: uppercase;
+}
+ul.homepage-featured-work {
+  list-style-type: none;
+  float: left;
+}
+li h6 {
+  text-align: center;
+}
+li.individual-featured-work {
+  margin-bottom: 60px;
+}
+/* archived case studies page */
+h5.archive-services-header {
+  color: grey;
+  font-family: "Arvo", sans-serif;
+  font-size: 12px;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+/* Contact Us Page */
+#wpforms-47343-field_0-container #wpforms-47343-field_1-container{
+  width: 400px;
+  float: left;
+}
+button {
+  float: right;
+  color: #45ac9d;
+}
