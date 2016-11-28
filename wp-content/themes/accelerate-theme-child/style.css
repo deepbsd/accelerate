@@ -87,6 +87,9 @@ li.individual-featured-work {
   margin-bottom: 60px;
 }
 /* archived case studies page */
+article.case-study {
+  float: left;
+}
 h5.archive-services-header {
   color: grey;
   font-family: "Arvo", sans-serif;
@@ -102,4 +105,78 @@ h5.archive-services-header {
 button {
   float: right;
   color: #45ac9d;
+}
+/* About Us Page */
+.about-page {
+    background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+    height: 400px;
+}
+h1.about-h1 {
+  padding: 70px;
+  font-size: 20px;
+  text-align: center;
+  height: 220px;
+}
+h3.about-h3 {
+  font-size: 18px;
+  text-align: center;
+}
+div.about-services-p {
+  margin-left: 220px;
+  margin-right: 220px;
+  text-align: center;
+}
+p.service-title {
+  font-size:20px;
+  font-weight:bold;
+}
+img.float-left1 {
+  margin-right:30px;
+  float:left;
+  clear:right;
+}
+img.float-right {
+  margin-top: 35px;
+  margin-left:10px;
+  float:right;
+}
+img.float-left2 {
+  margin-right:30px;
+  float:left;
+}
+div.aboutus {
+  text-width:600px;
+}
+div.sub-about {
+  overflow: auto;
+}
+div.site-description  {
+  display:none;
+}
+div.social-media-menu {
+  display: none;
+}
+/* 404 page */
+
+.error404 .page-content {
+  padding-top: 0;
+  color: #45ac9d;
+  font-size: 30px;
+  font-family: inherit;
+}
+.error404 .page-content .search-form {
+  margin-bottom: 24px;
+}
+.error404 .page-header {
+  border-bottom: 0;
+  margin: 0 auto 24px;
+  padding: 0 10px;
+}
+img.e404img {
+  margin-right: 20px;
+  width: 400px;
+  float: left;
+  clear: right;
+  border: 2px solid;
+  border-radius: 25px;
 }

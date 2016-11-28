@@ -18,15 +18,14 @@ get_header(); ?>
     		<aside class="case-study-sidebar">
     			  <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
     			  <h5 class="archive-services-header"><?php echo $services; ?></h5>
-    			  <?php the_excerpt(); ?>
+              <?php the_excerpt(); ?>
     			  <p><strong><a href="<?php the_permalink(); ?>">View Project &gt;</a></strong></p>
     		</aside>
         <div class="case-study-images">
           <a href="<?php the_permalink(); ?>">
     			    <?php if($image_1) {
     				      echo wp_get_attachment_image( $image_1, $size );
-              } ?>
-         </a>
+              } ?></a>
     		</div>
       </article>
     <?php endwhile; // end of the loop. ?>
