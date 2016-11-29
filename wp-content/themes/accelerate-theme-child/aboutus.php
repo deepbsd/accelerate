@@ -13,9 +13,24 @@
  */
 
 get_header(); ?>
-<div class="about-page">
+<section class="about-page">
 	<div class="site-content">
 
+			<?php while ( have_posts() ) : the_post();  ?>
+
+				<div class="aboutus">
+				<?php the_content(); ?>
+
+				<h1 class="about-h1">Accelerate is a strategy and marketing agency located in the heart of NYC. Our goal is to build businesses by making our clients visible and making their customers smile.</h1>
+
+ 			</div> <!-- aboutus -->
+		<?php endwhile;   ?>
+  </div>  <!-- site content -->
+</section> <!-- about-page  -->
+
+<section class="about_services">
+	<div class="site-content">
+		<div class="aboutus">
 			<?php while ( have_posts() ) : the_post();
 				$image1 = get_field('img1');
 				$service_title1 = get_field('service_title_1');
@@ -30,16 +45,10 @@ get_header(); ?>
 				$service_title4 = get_field('service_title_4');
 				$service_description4 = get_field('service_description4');  ?>
 
-				<div class="aboutus">
-				<?php the_content(); ?>
-
-				<h1 class="about-h1">Accelerate is a strategy and marketing agency located in the heart of NYC. Our goal is to build businesses by making our clients visible and making their customers smile.</h1>
-
 				<h3 class="about-h3">Our Services</h3>
 
 				<div class="about-services-p">We take pride in our clients and the services we create for them. Here's a brief overview of our offered services.</div>
 
-				<br>
 
 			<div class="sub-about">
 				<img src="<?php echo $image1; ?>" class="float-left1" />
@@ -65,11 +74,12 @@ get_header(); ?>
 				<p><?php echo $service_description4; ?></p>
 			</div>
 
-		</div>   <!-- end of about_us -->
-		<?php endwhile; // end of the loop. ?>
+			<?php endwhile; // end of the loop. ?>
+		</div>   <!-- end of aboutus -->
 
-		</div><!-- #site-content -->
-	</div><!-- #about-page -->
+
+		</div><!-- site-content -->
+	</section><!-- about_services -->
 
 
 

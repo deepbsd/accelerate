@@ -19,7 +19,7 @@ get_header(); ?>
 
 		<div class="page-content">
 			<img class="e404img" src="http://localhost/~dsj/accelerate/wp-content/uploads/2016/11/awkward_cat.jpg">
-			<p><?php _e( '<em><strong>Error 404!</strong></em><br>  It looks like nothing was found at this location. Maybe try a search?', 'accelerate-theme-child' ); ?></p>
+			<p><?php _e( '<em><strong>Error 404!</strong></em><br><em>The cat must have eaten that page!</em><br> How about trying a search?', 'accelerate-theme-child' ); ?></p>
 
 			<?php get_search_form(); ?>
 		</div><!-- .page-content -->

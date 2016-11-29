@@ -109,7 +109,7 @@ button {
 /* About Us Page */
 .about-page {
     background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
-    height: 400px;
+    /* height: 400px;  */
 }
 h1.about-h1 {
   padding: 70px;
@@ -124,6 +124,7 @@ h3.about-h3 {
 div.about-services-p {
   margin-left: 220px;
   margin-right: 220px;
+  margin-bottom: 50px;
   text-align: center;
 }
 p.service-title {
@@ -150,12 +151,11 @@ div.aboutus {
 div.sub-about {
   overflow: auto;
 }
-div.site-description  {
-  display:none;
+
+div.aboutus  {
+  clear: both;
 }
-div.social-media-menu {
-  display: none;
-}
+
 /* 404 page */
 
 .error404 .page-content {
