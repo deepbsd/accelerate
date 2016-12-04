@@ -58,7 +58,19 @@ get_header(); ?>
         <a class="read-more-link" href="<?php the_permalink(); ?>">Read More <span>&rsaquo;</span></a>
 		  <?php endwhile; ?>
 			<?php wp_reset_query(); // resets the altered query back to the original ?>
+		</div>  <!-- end blog-post -->
+		<div class="social-media">
+			<h4>Recent Tweet</h4>
+			<?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
+				<h2>&commat;Accelerate</h2>
+			<div id="secondary" class="widget-area" role="complementary">
+				<?php dynamic_sidebar( 'sidebar-2' ); ?>
+				<a class="twitter-subscribe" href="https://twitter.com/deepbsd">FOLLOW US  &gt;</a>
+			</div>
+			<?php endif; ?>
 		</div>
 	</div>
 </section>
+
+
 <?php get_footer(); ?>

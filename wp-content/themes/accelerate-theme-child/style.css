@@ -24,6 +24,7 @@
 
 .blog-post {
 	width: 50%;
+  float: left;
 }
 .blog-post h4 {
 	font-size: 16px;
@@ -72,19 +73,29 @@ div.case-study-images img {
 }
 
 /* Featured Work */
+section.featured-work {
+
+}
+
 h4.featured-work-heading {
+  margin-bottom: 30px;
   text-align: center;
   text-transform: uppercase;
+
 }
 ul.homepage-featured-work {
   list-style-type: none;
-  float: left;
+  display: flex;
 }
 li h6 {
   text-align: center;
 }
 li.individual-featured-work {
+  margin-left: 5px;
+  margin-right: 5px;
   margin-bottom: 60px;
+  float: left;
+
 }
 /* archived case studies page */
 article.case-study {
@@ -179,4 +190,42 @@ img.e404img {
   clear: right;
   border: 2px solid;
   border-radius: 25px;
+}
+/* twitter feed on front page */
+.social-media {
+  width: 50%;
+  float: left;
+}
+div.social-media li {
+  list-style-image: none;
+}
+aside#pi_simpletwittertweets-2 ul {
+  list-style-type: none;
+  margin-left: 0px;
+  padding: 0px;
+}
+div.social-media h4 {
+  margin-left: 30px;
+  font-size: 16px;
+  font-family: 'Montserrat';
+  color: #a6a6a6;
+  text-transform: uppercase;
+}
+div.social-media h2 {
+  margin-left: 30px;
+}
+a.twitter-subscribe {
+  padding-left: 30px;
+  font-size: 22px;
+  font-weight: bolder;
+  color: #45ac9d;
+}
+a.main-color:link {
+  color: #45ac9d;
+}
+a.main-color:visited {
+  color: #45ac9d;
+}
+a.main-color:hover {
+  color: #45ac9d;
 }
