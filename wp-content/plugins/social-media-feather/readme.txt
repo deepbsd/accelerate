@@ -2,7 +2,7 @@
 Contributors: socialmediafeather
 Tags: social media, social sharing, social buttons, Facebook, Share, Like, twitter, google, Reddit, youtube, instagram, pinterest, social media buttons, button, shortcode, sidebar, sharing buttons, follow buttons
 Requires at least: 3.1
-Tested up to: 4.6.1
+Tested up to: 4.7
 Stable tag: trunk
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -43,7 +43,7 @@ You can disable automatic rendering of social icons for specific posts by using 
 * Full customization for titles and URLs for each provider
 * Fast unobtrusive social bookmarks for your site
 * Comes with a default modern icon set
-* For further customization more [social icons skins](http://socialmediafeather.com/products/extra-social-icons/ "Add 8 extra social icon skins to the Social Media Feather plugin!") are available
+* For further customization more [social icons skins](http://socialmediafeather.com/products/extra-social-icons/ "Add 8 extra social icon skins to the Social Media Feather plugin!") are available. Free from the version 1.8.2!
 * Available skins can be customized with cool effects like [fading and greying out](http://socialmediafeather.com/products/grey-fade-effect/ "Customize any of the available social icon skins with 2 cool effects!") social icons
 * If you like them you can get [social sharing counters](http://socialmediafeather.com/products/light-prompt/ "Nice lightweight social sharing counters using the Light Prompt addon") that load dynamically, only when necessary, thus not weighing in on visitors who don't use them
 
@@ -98,7 +98,7 @@ For following buttons you can use:
 
 = Related Links: =
 
-* [WordPress Social Media Plugin Official Page](http://socialmediafeather.com/ "WordPress Social Media Feather Ð lightweight WordPress social sharing and following")
+* [WordPress Social Media Plugin Official Page](http://socialmediafeather.com/ "WordPress Social Media Feather ï¿½ lightweight WordPress social sharing and following")
 * [Extra Social Icons Skins](http://socialmediafeather.com/products/extra-social-icons/ "Add 8 extra social icon skins to the Social Media Feather plugin!")
 * [Grey Fade addon that can grey out and fade out any social icons set](http://socialmediafeather.com/products/grey-fade-effect/ "Customize any of the available social icon skins with 2 cool effects!")
 * [Light Prompt that adds counts for social shares](http://socialmediafeather.com/products/light-prompt/ "Add counters for social shares using Light Prompt")
@@ -145,7 +145,7 @@ You can simply edit the page in question and add a [shortcode](https://codex.wor
 
 = How do I specify a custom image for my sharing buttons shortcode? =
 
-Just edit your [shortcode](https://codex.wordpress.org/Shortcode) so it looks like this `[feather_share url="http://www.example.org" image="http://www.example.org/image.jpg"]`, remember to substitute `http://www.example.org` with the URL to your site and the same goes for the JPEG URL. 
+Just edit your [shortcode](https://codex.wordpress.org/Shortcode) so it looks like this `[feather_share url="http://www.example.org" image="http://www.example.org/image.jpg"]`, remember to substitute `http://www.example.org` with the URL to your site and the same goes for the JPEG URL.
 
 = How do I add a set of custom social network profile icons on my homepage or about page? =
 
@@ -185,9 +185,13 @@ margin-left: 10px;
 4. Showing how using the [Grey Fade addon](http://socialmediafeather.com/products/grey-fade-effect/ "Customize any of the available social icon skins with 2 cool effects!") transforms the sharing or following buttons in the front-end
 5. A demo of how social media providers can be customized in the back-end
 6. An view of some of the settings that can be customized in Social Media the back-end
-7. This shows the available social sharing and following widgets and their settings 
+7. This shows the available social sharing and following widgets and their settings
 
 == Changelog ==
+
+= 1.8.2 =
+* NEW: 6 icon styles which were previously available as a $15 add on are now included for FREE!
+* Removed NEWS dashboard widget
 
 = 1.8.1 =
 * Fixes for old versions of PHP
@@ -213,7 +217,7 @@ margin-left: 10px;
 
 = 1.7.8 =
 * Disable credit link by default
- 
+
 = 1.7.7 =
 * Fixed addon installer's path calculation for rare cases
 
@@ -298,7 +302,7 @@ margin-left: 10px;
 * Minor adjustments
 
 = 1.5.9 =
-* Fix for RSS feeds displaying double resolution images 
+* Fix for RSS feeds displaying double resolution images
 * Minor adjustments
 
 = 1.5.8 =
@@ -397,4 +401,3 @@ margin-left: 10px;
 
 = 1.0 =
 * First public release.
-
